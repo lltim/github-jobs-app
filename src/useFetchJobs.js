@@ -8,7 +8,7 @@ const ACTIONS = {
     UPDATE_HAS_NEXT_PAGE: 'update-has-next-page'
 }
 
-const BASE_URL = '/positions.json'
+const BASE_URL = 'https://jobs.github.com/positions.json?description=python&full_time=true&location=sf'
 
 function reducer(state, action) {
     switch(action.type) {
